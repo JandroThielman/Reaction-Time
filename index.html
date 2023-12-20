@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reaction Time</title>
+</head>
+<body>
+    <div id="StartPage">
+        <h1 class="start-text">Test Your Reaction Time!</h1>
+        <button id="StartButton" onclick="Test()">Start Test</button>
+    </div>
+   
+    <div id="ReactionTime">
+        <h1 class="reaction-text">Wait for Green!</h1>
+    </div>
+
+    <div id="ClickedEarly">
+        <a class="back" href="index.html">Back</a>
+        <h1 class="Early-text">Too Soon!</h1>
+    </div>
+
+    <div id="ReactionTimeClick">
+        <h1 class="reaction-text">Click!</h1>
+    </div>
+
+    <div id="ReactionResult">
+        <a href="index.html" class="back">Back</a>
+        <h1 class="RT">Reaction Time</h1>
+        <h1 id="result-text"></h1>
+    </div>
+
+    <div id="Status">
+        <h1 class="Stats-text">Fastest Reaction Time</h1>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>

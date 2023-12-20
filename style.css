@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#ReactionResult{
+    background-color: #32827c;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+}
+
+#ReactionTime{
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+    z-index: 4;
+    position: relative;
+}
+
+.Early-text{
+    text-align: center;
+    color: white;
+    font-size: 10rem;
+    margin-top: 35vh;
+}
+
+#ClickedEarly{
+    background-color: #32827c;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+}
+
+#ReactionTimeClick{
+    background-color: green;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+}
+
+#Status{
+    background-color: #32827c;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+}
+
+#StartPage{
+    width: 100vw;
+    height: 100vh;
+    background-color: #32827c;
+    position: absolute;
+    z-index: 5;
+}
+
+.start-text{
+    text-align: center;
+    padding-top: 10vh;
+    font-size: 7rem;
+    letter-spacing: 1rem;
+    color: white;
+    color: greenyellow;
+}
+
+.reaction-text{
+    text-align: center;
+    padding-top: 40vh;
+    font-size: 7rem;
+    letter-spacing: 1rem;
+    color: white;
+}
+
+#StartButton{
+    margin-left: 40.5vw;
+    margin-top: 15vh;
+    font-size: 3.5rem;
+    background-color: #c10000;
+    border: 1rem outset red;
+    color: greenyellow;
+}
+
+#StartButton:hover{
+    border: .5rem outset rgb(214, 3, 3);
+    width: 257px;
+    height: 99px;
+}
+
+
+.back{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(44, 44, 44);
+    padding: .5rem;
+    text-align: center;
+}
+
+.stats{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(44, 44, 44);
+    padding: .5rem;
+    text-align: center;
+}
+
+.RT{
+    text-align: center;
+    margin-top: 25vh;
+    font-size: 7rem;
+    color: white;
+}
+
+#result-text{
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    margin-top: 5vh;
+}
+
+.Stats-text{
+    text-align: center;
+    padding-top: 10vh;
+    font-size: 7rem;
+    letter-spacing: 1rem;
+    color: white;
+}
